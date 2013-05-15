@@ -26,3 +26,9 @@ this application.  Using any of this code without my explicit consent (ayeager78
 
 Thanks!!!
 
+Tools I intend to use at this time. 05-15-13 and that I add at a later time.
+    SQL Sever
+        - Express 2012 - for local (all will be local for now)
+        - Developer edition 2012 for later remote hosted DB
+    Python 2.7x
+        - PyQt4 and Qt Creator 4x
