@@ -21,13 +21,29 @@ learning experience and will one day be something that can be used as it was int
 -  I welcome any and all ideas on ways I can improve any code you see.  Contact me at ayeager78@gmail.com
 
 -  Just in the event I stumble upon something genius..... ***** All code in this repository is intended for me and
-this application.  Using any of this code without my explicit consent (ayeager78@gmail.com) is forbidden.  *****
+this application.  Using any of this code without my explicit consent (ayeager78 @ gmail. com) is forbidden.  *****
+
+- Project Modules
+    - Employee Management
+        - Crew/Team Management and Tracking
+    - Customer Management
+    - Asset Management
+    - Job / Work Order Management (Scheduling & History)
+    - Scheduling
+    - Service Pricing & billing - that supports Flat Rate as well as T&M
+    - New construction & remodel Job Estimating
+    - Material Handling (warehousing & tracking, purchasing)
+    - Accounting
 
 Thanks!!!
 
 Tools I intend to use at this time. 05-15-13 and that I add at a later time.
+
     SQL Sever
         - Express 2012 - for local (all will be local for now)
-        - Developer edition 2012 for later remote hosted DB
-    Python 2.7x
-        - PyQt4 and Qt Creator 4x
+        - Developer/Enterprise? edition 2012 for later remote hosted DB
+    Python 3.3x with the following module dependencies.
+        - PyQt4
+
+--7/25/2011
+    Added a rough draft of the database plan.  It is not fully complete.
