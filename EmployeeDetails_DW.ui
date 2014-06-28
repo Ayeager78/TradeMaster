@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DockWidget</class>
+ <widget class="QDockWidget" name="DockWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1137</width>
+    <height>772</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DockWidget</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="TabsEmployeeDetails">
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::PreventContextMenu</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(240, 240, 240);</string>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <property name="documentMode">
+       <bool>false</bool>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <property name="movable">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="TabEmpGeneral">
+       <attribute name="title">
+        <string>General</string>
+       </attribute>
+       <widget class="QLineEdit" name="EmpFirstName">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>70</y>
+          <width>176</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="LblEmpFirstName">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>176</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>First Name</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="EmpMiddleName">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>70</y>
+          <width>176</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="LblEmpMiddleName">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>40</y>
+          <width>176</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Middle Name</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="EmpLastName">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>70</y>
+          <width>176</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="LblEmpLastName">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>40</y>
+          <width>176</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Last Name</string>
+        </property>
+       </widget>
+       <widget class="QGraphicsView" name="EmpPhoto">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>120</y>
+          <width>371</width>
+          <height>391</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="TabEmpPersonalInfo">
+       <attribute name="title">
+        <string>Personal</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupPhysAddress">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>431</width>
+          <height>161</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Physical Address</string>
+        </property>
+        <widget class="QLineEdit" name="phyAddress1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>391</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>Street Address</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="phyAddress2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>70</y>
+           <width>391</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Address 2 (Suite, Apt, etc....)</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="phyCity">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>110</y>
+           <width>171</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>City</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="phyState">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>110</y>
+           <width>71</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="insertPolicy">
+          <enum>QComboBox::NoInsert</enum>
+         </property>
+         <item>
+          <property name="text">
+           <string>TX</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MN</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLineEdit" name="phyZipcode">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>110</y>
+           <width>111</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>Zipcode</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupMailAddress">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>210</y>
+          <width>431</width>
+          <height>161</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Mailing Address</string>
+        </property>
+        <widget class="QLineEdit" name="mailAddress1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>391</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>Street Address or PO Box</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="mailAddress2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>70</y>
+           <width>391</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>Address 2 (Suite, Apt, etc....)</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="mailCity">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>110</y>
+           <width>171</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>City</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="mailState">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>110</y>
+           <width>71</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="insertPolicy">
+          <enum>QComboBox::NoInsert</enum>
+         </property>
+         <item>
+          <property name="text">
+           <string>TX</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>MN</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLineEdit" name="mailZip">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>110</y>
+           <width>111</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>Zipcode</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="CboxSameAddress">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>0</y>
+           <width>161</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Same as Physical</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupPhone">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>380</y>
+          <width>431</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Phone Info</string>
+        </property>
+        <widget class="QLineEdit" name="homePhone">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>60</y>
+           <width>131</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>(xxx) xxx-xxxx</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>70</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Home</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="cellPhone">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>130</y>
+           <width>131</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>(xxx) xxx-xxxx</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>100</y>
+           <width>70</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Mobile</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="workPhone">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>60</y>
+           <width>131</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>(xxx) xxx-xxxx</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>30</y>
+           <width>70</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Work</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="workExtension">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>60</y>
+           <width>81</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>Extension</string>
+         </property>
+        </widget>
+        <zorder>label</zorder>
+        <zorder>label_2</zorder>
+        <zorder>homePhone</zorder>
+        <zorder>cellPhone</zorder>
+        <zorder>workPhone</zorder>
+        <zorder>label_3</zorder>
+        <zorder>workExtension</zorder>
+       </widget>
+       <widget class="QGroupBox" name="groupEmail">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>390</y>
+          <width>601</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Email</string>
+        </property>
+        <widget class="QLineEdit" name="workEmail">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>261</width>
+           <height>27</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="personalEmail">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>60</y>
+           <width>301</width>
+           <height>27</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>70</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Work </string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>30</y>
+           <width>70</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Personal</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupEmergencyContacts">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>50</y>
+          <width>601</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Emergency Contacts</string>
+        </property>
+        <widget class="QGroupBox" name="groupPrimaryEC">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>581</width>
+           <height>151</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Primary</string>
+         </property>
+         <widget class="QLineEdit" name="namePEC">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>40</y>
+            <width>291</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="placeholderText">
+           <string>Name</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="homePhonePEC">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>110</y>
+            <width>131</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="placeholderText">
+           <string>(xxx) xxx-xxxx</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>80</y>
+            <width>70</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Work</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="workPhonePEC">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>110</y>
+            <width>131</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>(xxx) xxx-xxxx</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>440</x>
+            <y>80</y>
+            <width>70</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mobile</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="cellPhonePEC">
+          <property name="geometry">
+           <rect>
+            <x>440</x>
+            <y>110</y>
+            <width>131</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>(xxx) xxx-xxxx</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>80</y>
+            <width>70</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Home</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="workExtensionPEC">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>110</y>
+            <width>81</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="placeholderText">
+           <string>Extension</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="relationshipPEC">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>40</y>
+            <width>241</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="insertPolicy">
+           <enum>QComboBox::NoInsert</enum>
+          </property>
+          <property name="minimumContentsLength">
+           <number>0</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>Spouse</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Parent</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sibling</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Child</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Friend</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Other</string>
+           </property>
+          </item>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupSecondaryEC">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>180</y>
+           <width>581</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Secondary</string>
+         </property>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>70</y>
+            <width>70</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Work</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="nameSEC">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>30</y>
+            <width>291</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="placeholderText">
+           <string>Name</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="realtionshipSEC">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>30</y>
+            <width>241</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="insertPolicy">
+           <enum>QComboBox::NoInsert</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Spouse</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Parent</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sibling</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Child</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Friend</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Other</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLineEdit" name="homePhoneSEC">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>131</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="placeholderText">
+           <string>(xxx) xxx-xxxx</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>70</y>
+            <width>70</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Home</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="workPhoneSEC">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>100</y>
+            <width>131</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>(xxx) xxx-xxxx</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>440</x>
+            <y>70</y>
+            <width>70</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mobile</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="cellPhoneSEC">
+          <property name="geometry">
+           <rect>
+            <x>440</x>
+            <y>100</y>
+            <width>131</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>(xxx) xxx-xxxx</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="workExtensionSEC">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>100</y>
+            <width>81</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="placeholderText">
+           <string>Extension</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="TabEmpEmploymentInfo">
+       <attribute name="title">
+        <string>Employment</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>560</y>
+          <width>401</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Personal Data</string>
+        </property>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>171</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="placeholderText">
+          <string>xxx-xx-xxxx</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>70</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>SSN</string>
+         </property>
+        </widget>
+        <widget class="QDateEdit" name="dateEdit">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>20</y>
+           <width>111</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>60</y>
+           <width>111</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>Male</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Female</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>30</y>
+           <width>70</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Birthdate</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>70</y>
+           <width>70</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Gender</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="TabEmpLiscenseCerts">
+       <attribute name="title">
+        <string>Liscense &amp;&amp; Certs</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>phyAddress1</tabstop>
+  <tabstop>phyAddress2</tabstop>
+  <tabstop>phyCity</tabstop>
+  <tabstop>phyState</tabstop>
+  <tabstop>phyZipcode</tabstop>
+  <tabstop>CboxSameAddress</tabstop>
+  <tabstop>mailAddress1</tabstop>
+  <tabstop>mailAddress2</tabstop>
+  <tabstop>mailCity</tabstop>
+  <tabstop>mailState</tabstop>
+  <tabstop>mailZip</tabstop>
+  <tabstop>homePhone</tabstop>
+  <tabstop>workPhone</tabstop>
+  <tabstop>workExtension</tabstop>
+  <tabstop>cellPhone</tabstop>
+  <tabstop>workEmail</tabstop>
+  <tabstop>personalEmail</tabstop>
+  <tabstop>EmpMiddleName</tabstop>
+  <tabstop>EmpPhoto</tabstop>
+  <tabstop>EmpFirstName</tabstop>
+  <tabstop>EmpLastName</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

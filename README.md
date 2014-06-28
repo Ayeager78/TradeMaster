@@ -23,7 +23,6 @@ learning experience and will one day be something that can be used as it was int
 -  Just in the event I stumble upon something genius..... ***** All code in this repository is intended for me and
 this application.  Using any of this code without my explicit consent (ayeager78@gmail.com) is forbidden.  *****
 
-
 Thanks!!!
 
 Tools I intend to use at this time. 05-15-13 and that I add at a later time.
